@@ -1,0 +1,41 @@
+.novaTarefa{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+
+.tarefas{
+    width: 270px;
+    background: rgb(221, 221, 221);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5px;
+    box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
+    margin-top: 20px;
+}
+
+.checado{
+    font-style: italic;
+    text-decoration: line-through;
+    width: 270px;
+    background: rgba(221, 221, 221, 0.986);
+    border-radius: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    word-wrap: break-word;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 5px;
+    box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
+    margin-top: 20px;
+}
+
+.tarefa{
+    width: 60%;
+    margin: 5px;
+}
+
+
