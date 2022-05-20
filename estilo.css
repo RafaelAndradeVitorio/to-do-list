@@ -1,28 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
+
 .novaTarefa{
     color: rgb(0, 0, 0);
     font-weight: bolder;
 }
 
 .tarefas{
+    font-family: 'Kalam';
     width: 270px;
-    background: rgb(221, 221, 221);
-    border-radius: 25px;
+    background: rgb(248, 204, 10);
     display: flex;
-    flex-flow: row wrap;
-    word-wrap: break-word;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 2px 5px;
     box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
     margin-top: 20px;
+}
+.tarefa{
+    width: 70%;
+    font-size: 100%;
 }
 
 .checado{
+    font-family: 'Kalam';
     font-style: italic;
     text-decoration: line-through;
     width: 270px;
-    background: rgba(221, 221, 221, 0.986);
-    border-radius: 25px;
+    background: rgba(248, 204, 10, 0.842);
     display: flex;
     flex-flow: row wrap;
     word-wrap: break-word;
@@ -33,9 +38,43 @@
     margin-top: 20px;
 }
 
-.tarefa{
-    width: 60%;
-    margin: 5px;
+.high{
+    font-family: 'Kalam';
+    width: 270px;
+    background: rgb(248, 204, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px 5px;
+    box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
+    margin-top: 20px;
+    border-bottom: 3px solid red;
+}
+
+.medium{
+    font-family: 'Kalam';
+    width: 270px;
+    background: rgb(248, 204, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px 5px;
+    box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
+    margin-top: 20px;
+    border-bottom: 3px solid blue;
+}
+
+.low{
+    font-family: 'Kalam';
+    width: 270px;
+    background: rgb(248, 204, 10);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2px 5px;
+    box-shadow: 3px 2px 6px rgba(56, 55, 55, 0.301);
+    margin-top: 20px;
+    border-bottom: 3px solid green;
 }
 
 

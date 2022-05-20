@@ -28,12 +28,10 @@ botao.addEventListener('click', function(e){
    caixaSelecao.addEventListener('change', ()=> {
       if (caixaSelecao.checked) {
          console.log("Checkbox is checked..");
-         caixaSelecao.parentNode.style.opacity = '50%';
-         caixaSelecao.parentNode.classList = "checado"
+         caixaSelecao.parentNode.style.opacity = '60%';
        } else {
          console.log("Checkbox is not checked..");
          caixaSelecao.parentNode.style.opacity = '100%'
-         caixaSelecao.parentNode.classList = "tarefas"
    
        }
    })
@@ -48,11 +46,11 @@ botao.addEventListener('click', function(e){
    novaTarefa.appendChild(caixaSelecao)
 
    if (prioridade.value === 'Alta'){
-      novaTarefa.style.border = '1px solid red'
+      novaTarefa.classList = 'high'
    } else if (prioridade.value === 'Media'){
-      novaTarefa.style.border = '1px solid blue'
+      novaTarefa.classList = 'medium'
    } else if (prioridade.value === 'Baixa'){
-      novaTarefa.style.border = '1px solid #0fbd1dfb'
+      novaTarefa.classList = 'low'
    }
    document.querySelector('.selecione').selected = 'true'
    tarefa.value = ""
